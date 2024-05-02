@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "roboto-condensed";
+    src: url("../assets/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "roboto-condensed-italic";
+    src: url("../assets/Roboto_Condensed/RobotoCondensed-Italic-VariableFont_wght.ttf") format("truetype");
+  }

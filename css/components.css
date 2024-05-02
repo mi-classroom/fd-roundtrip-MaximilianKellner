@@ -1,0 +1,71 @@
+header {
+  background-color: var(--color-purple);
+  color: var(--color-white);
+  padding: var(--s);
+  border-radius: 0 0 var(--xs) var(--xs);
+
+  .logo-headline {
+    ::after {
+      content: "4All";
+      color: var(--color-orange);
+    }
+  }
+}
+
+.img-text-block {
+  display: flex;
+  background-color: var(--color-gruen);
+  border-radius: var(--xs);
+  margin-top: var(--s);
+
+  img {
+    width: 60%;
+    object-fit: cover;
+    border-radius: var(--xs) 0 0 var(--xs);
+  }
+
+  .text-block {
+    color: var(--color-white);
+    padding: var(--xxs);
+
+    h2 {
+      font-size: var(--s);
+    }
+    p {
+      font-size: var(--xs);
+    }
+  }
+}
+
+.tab-header {
+  display: flex;
+  justify-content: space-between;
+  margin: var(--s);
+}
+
+.content-table {
+
+  .t-phase {
+    color: var(--color-white);
+    ul {
+      list-style-type: none;
+      text-align: right;
+      li {
+        background-color: var(--color-red);
+        border-radius: var(--xxs);
+        padding: var(--xxs);
+        display: inline-flex;
+      }
+    }
+  }
+}
+
+@media screen and (width <= 600px){
+    & .t-phase {
+        display: none;
+      }
+
+     & .t-umfang {
+        display: none;
+      }
+}

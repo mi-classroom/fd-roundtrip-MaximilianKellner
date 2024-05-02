@@ -1,0 +1,21 @@
+:root {
+  --color-red: #f21f30;
+  --color-yellow: #f5b120;
+  --color-orange: #f9622b;
+  --color-purple: #641e50;
+  --color-beige: #fef9f2;
+  --color-gruen: #97a627;
+
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-grey: #b3ada5;
+
+  --xxs: 6px;
+  --xs: 12px;
+  --s: 18px;
+  --m: 24px;
+  --l: 36px;
+  --xl: 42px;
+  --xxl: 54px;
+  --xxxl: 72px;
+}
