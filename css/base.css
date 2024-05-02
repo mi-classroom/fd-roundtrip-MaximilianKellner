@@ -8,6 +8,14 @@ html, body{
 }
 
 body{
-    margin: 0 var(--s) ;
+    margin: 0 var(--s);
 }
 
+main{
+    padding-bottom: 100px;
+}
+
+.invert-color {
+    height: var(--l);
+    filter: invert(1);
+  }

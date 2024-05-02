@@ -14,9 +14,6 @@ header {
 
 .img-text-block {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-
   background-color: var(--color-gruen);
   border-radius: var(--xs);
   margin-top: var(--s);
@@ -28,6 +25,10 @@ header {
   }
 
   .text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     color: var(--color-white);
     padding: var(--xxs);
 
@@ -126,7 +127,7 @@ header {
   }
 }
 
-.nav-bottom {
+.nav-bar-bottom {
   background-color: var(--color-purple);
   display: flex;
   justify-content: space-around;
@@ -134,14 +135,42 @@ header {
   font-size: var(--s);
   padding: var(--s);
 
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 520px;
+
   img {
     height: var(--l);
-    filter: invert(1);
   }
 
   .nav-button {
     color: var(--color-white);
-    justify-content: center;
     text-align: center;
+    font-size: var(--xs);
+
+    & :hover {
+      color: var(--color-orange);
+    }
+  }
+}
+
+.nav-bar-top {
+  display: flex;
+  justify-content: space-between;
+  ul {
+    display: flex;
+    list-style-type: none;
+
+    li {
+      margin: var(--xs) var(--xs) 0 0;
+      font-size: var(--xs);
+      font-weight: 900;
+      img {
+        height: var(--m);
+      }
+    }
   }
 }
